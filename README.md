@@ -7,10 +7,10 @@ pip install toolsan
 import toolsan as ts
 
 # Typewriter effect in green
-ts.superprint("Привет, мир!", delay=0.1, color="green")
+ts.superprint("Привет, мир!", delay=0.1, color=green)
 
 # Loading animation for 3 seconds, speed 10
-ts.loadspin(3, speed=10, color="blue")
+ts.loadspin(3, speed=10, color=blue)
 
 # Calculator
 print(ts.calculate("2+2*2"))      # 6
