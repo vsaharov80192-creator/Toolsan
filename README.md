@@ -27,6 +27,10 @@ print(ts.random_obj(["mark", "igor", "oleg"]))
 
 # Check if a number is around the target
 print(ts.around(52, 50, 10))  # True (52 between 40 and 60)
+## The most powerful features
+
+- **`calculate(expression)`** — safe and powerful calculator: supports arithmetic, factorials, roots, powers, and more.
+- **`sim(word1, word2, 0.7)`** — fuzzy string matching: checks if two words are similar (based on Levenshtein distance).
 And much more.
-See the source code in the toolsan folder.
+See the source code in the new.py folder.
 
